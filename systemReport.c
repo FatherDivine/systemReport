@@ -7,20 +7,19 @@
 #define _GNU_SOURCE
 #define _DEFAULT_SOURCE
 
+#include <fcntl.h>
+#include <linux/hdreg.h>
+#include <linux/types.h> // Defines the 'us' (unsigned short) and other types
+#include <mntent.h>
+#include <scsi/sg.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <unistd.h>
-#include <sys/ioctl.h>
-#include <linux/hdreg.h>
-#include <linux/types.h> // Defines the 'us' (unsigned short) and other types
-#include <fcntl.h>
-#include <sys/vfs.h>
-#include <mntent.h>
-#include <scsi/sg.h>
 #include <sys/ioctl.h>
 #include <sys/sysinfo.h>
 #include <sys/types.h>
+#include <sys/vfs.h>
+#include <unistd.h>
 
 #define MAX_CPU_TYPES 10
 
