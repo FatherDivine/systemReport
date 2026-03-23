@@ -11,7 +11,7 @@ gcc -Wall -g -std=c99 systemReport.c -o systemReport
 # CentOS C/GCC Compatibility Reference
 
 A quick reference guide for the differences in C standards and GCC compiler versions across legacy CentOS releases.
-<<br><br>
+<br><br>
 
 ## Compiler & Standard Defaults
 
